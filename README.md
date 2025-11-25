@@ -1,21 +1,22 @@
-# Algorithms Assignment: Bellman-Ford & TSP
+# Thuật toán: Bellman-Ford & TSP
 
-This project implements the Bellman-Ford algorithm and the Traveling Salesman Problem (TSP) algorithm in C++.
+Dự án này triển khai thuật toán Bellman-Ford và thuật toán Bài toán Người du lịch (Traveling Salesman Problem - TSP) bằng ngôn ngữ C++.
 
-## Project Structure
+## Cấu trúc dự án
 
-- **code/**: Contains the C++ source code.
-  - `main.cpp`: Entry point containing test cases.
-  - `bellman.cpp` / `bellman.h`: Implementation of the Bellman-Ford algorithm.
-  - `tsm.cpp` / `tsm.h`: Implementation of the Traveling Salesman Problem algorithm.
+- **code/**: Chứa mã nguồn C++.
+  - `main.cpp`: Điểm khởi đầu, chứa các trường hợp kiểm thử.
+  - `bellman.cpp` / `bellman.h`: Triển khai thuật toán Bellman-Ford.
+  - `tsm.cpp` / `tsm.h`: Triển khai thuật toán Bài toán Người du lịch.
 - **Documentation**:
-  - `DS__CO1007__SEM_232___Assignment_1__Bellman_Ford_.pdf`: Assignment details for Bellman-Ford.
-  - `tsm.pdf`: Assignment details for TSP.
+  - `DS__CO1007__SEM_232___Assignment_1__Bellman_Ford_.pdf`: Chi tiết bài tập về Bellman-Ford.
+  - `tsm.pdf`: Chi tiết bài tập về TSP.
 
-## Output
+## Kết quả
 
-The program runs three sample test cases demonstrating:
+Chương trình chạy ba trường hợp kiểm thử mẫu minh họa:
 
-- Bellman-Ford algorithm steps and results.
-- Shortest path reconstruction using Bellman-Ford.
-- Traveling Salesman Problem solution.
+- Các bước và kết quả của thuật toán Bellman-Ford.
+- Tái tạo đường đi ngắn nhất bằng Bellman-Ford.
+- Lời giải cho Bài toán Người du lịch (TSP).
+
